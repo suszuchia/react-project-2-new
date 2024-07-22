@@ -1,0 +1,24 @@
+.converter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.convert-button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+@media (hover: hover) {
+  .convert-button:hover {
+    background-color: #0056b3;
+  }
+}
